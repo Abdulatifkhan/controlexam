@@ -73,7 +73,7 @@ img {
   margin: 0 auto;
 }
 .site-header {
-  box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   position: static;
 }
 .menu {
@@ -161,4 +161,64 @@ img {
   text-decoration: none;
   align-self: center;
   margin: 0px 0px;
+}
+.inform-right-video {
+  width: 458px;
+  height: 258px;
+}
+.inform-hr {
+  display: flex;
+  width: 300px;
+  height: 3px;
+  background: #EEEEEE;
+}
+.main-header {
+  margin-top: 57px;
+  margin-bottom: 24px;
+  margin-right: 290px;
+  margin-left: 290px;
+}
+.sait-main-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+}
+.sait-main-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.sait-main-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sait-main-list-itam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 260px;
+  list-style-type: none;
+  background-color: #fff;
+}
+.sait-main-list-itam:nth-child(3) {
+  margin-right: 50px;  
+}
+.sait-main-list-link {
+  text-decoration: none;
+  color: #000
+}
+.sait-main-list-link h4 {
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+}
+.sait-main-list-link p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
